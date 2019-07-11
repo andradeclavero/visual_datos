@@ -1,5 +1,5 @@
 // Definir atributos iniciales para el Mapa
-const MAP_ZOOM = 2
+const MAP_ZOOM = 3
 const MAP_CENTER = [-33.4444, -70.6535]
 
 // Crear instancia del Mapa
