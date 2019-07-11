@@ -1,0 +1,27 @@
+{
+  "name": "visual_datos",
+  "version": "1.0.0",
+  "description": "Proyecto final curso visualizacion datos geograficos en internet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andradeclavero/visual_datos.git"
+  },
+  "keywords": [
+    "datos",
+    "clima",
+    "geografia"
+  ],
+  "author": "Paulo Andrade Clavero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andradeclavero/visual_datos/issues"
+  },
+  "homepage": "https://github.com/andradeclavero/visual_datos#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
