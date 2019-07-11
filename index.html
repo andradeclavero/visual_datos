@@ -8,8 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+     <!-- CSS Requerido por Leaflet -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+     crossorigin="" />
 
     <title>Climas de Chile - Visualización de Datos Geográficos</title>
   </head>
@@ -23,89 +25,7 @@
       <div class="row">
         <div class="col-sm-4">
           <h3>Aquí va el mapa... espere</h3>
-              <div id="map"
-                class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
-                tabindex="0" style="position: relative; outline: none;">
-                <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-44px, 0px, 0px);">
-                  <div class="leaflet-pane leaflet-tile-pane">
-                    <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
-                      <div class="leaflet-tile-container leaflet-zoom-animated"
-                        style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation"
-                          src="http://a.tile.openstreetmap.org/14/7977/6102.png" class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(255px, 99px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://c.tile.openstreetmap.org/14/7977/6101.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(255px, -157px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://c.tile.openstreetmap.org/14/7976/6102.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(-1px, 99px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://b.tile.openstreetmap.org/14/7978/6102.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(511px, 99px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://b.tile.openstreetmap.org/14/7977/6103.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(255px, 355px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://b.tile.openstreetmap.org/14/7976/6101.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(-1px, -157px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://a.tile.openstreetmap.org/14/7978/6101.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(511px, -157px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://a.tile.openstreetmap.org/14/7976/6103.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(-1px, 355px, 0px); opacity: 1;"><img alt=""
-                          role="presentation" src="http://c.tile.openstreetmap.org/14/7978/6103.png"
-                          class="leaflet-tile leaflet-tile-loaded"
-                          style="width: 256px; height: 256px; transform: translate3d(511px, 355px, 0px); opacity: 1;"></div>
-                    </div>
-                  </div>
-                  <div class="leaflet-pane leaflet-shadow-pane"><img
-                      src="https://unpkg.com/leaflet@1.0.2/dist/images/marker-shadow.png"
-                      class="leaflet-marker-shadow leaflet-zoom-animated"
-                      style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(420px, 300px, 0px);">
-                  </div>
-                  <div class="leaflet-pane leaflet-overlay-pane"></div>
-                  <div class="leaflet-pane leaflet-marker-pane"><img src="https://unpkg.com/leaflet@1.0.2/dist/images/marker-icon.png"
-                      class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive leaflet-marker-draggable" tabindex="0"
-                      style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(420px, 300px, 0px); z-index: 300;">
-                  </div>
-                  <div class="leaflet-pane leaflet-tooltip-pane"></div>
-                  <div class="leaflet-pane leaflet-popup-pane"></div>
-                  <div class="leaflet-proxy leaflet-zoom-animated"
-                    style="transform: translate3d(2.04216e+06px, 1.56231e+06px, 0px) scale(8192);"></div>
-                </div>
-                <div class="leaflet-control-container">
-                  <div class="leaflet-top leaflet-left">
-                    <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#"
-                        title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#"
-                        title="Zoom out" role="button" aria-label="Zoom out">-</a></div>
-                  </div>
-                  <div class="leaflet-top leaflet-right"></div>
-                  <div class="leaflet-bottom leaflet-left">
-                    <div class="leaflet-control-scale leaflet-control">
-                      <div class="leaflet-control-scale-line" style="width: 70px;">500 m</div>
-                      <div class="leaflet-control-scale-line" style="width: 85px;">2000 ft</div>
-                    </div>
-                  </div>
-                  <div class="leaflet-bottom leaflet-right">
-                    <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com"
-                        title="A JS library for interactive maps">Leaflet</a> | Map data © <a
-                        href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a
-                        href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a
-                        href="http://cloudmade.com">CloudMade</a></div>
-                  </div>
-                </div>
-              </div>
-              <script>
-                var map = 
-                  L.map('map').
-                   setView([-33.4444, -70.6535], 6);
-                  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-                maxZoom: 18
-                }).addTo(map); 
-              </script>
-           
+          <div id="myMap"></div>   
         </div>
         <div class="col-sm-4">
           <h3>Acá irá información vinculada a elementos del mapa</h3>
@@ -117,11 +37,16 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- Finalmente, Leaflet.js-->
-    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
+    <!-- JS Requerido por Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+    <!-- Script de mapeo -->
+    <script src="mapa_clima.js"></script>
+
   </body>
 </html>
