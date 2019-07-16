@@ -54,7 +54,7 @@ d3.json('./mapa.json')
     L.geoJSON(geojson, {
       onEachFeature: MostrarDato,
       pointToLayer: function (geoJsonPoint, latlng) {
-        return L.Marker(latlng).bindPopup(`Mortalidad 2008: ${geoJsonPoint.clima}`)
+        return L.Marker(latlng)
       },
     }).addTo(map)
   })
