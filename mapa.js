@@ -31,8 +31,8 @@ function MostrarDato(feature, layer) {
         // Se genera el HTML para representar la acción de Click sobre un marcador
         let html_clima = `
           
-        <h1>Nomenclatura de clasificación: ${Clima}</h1>
-        <p>Nombre del clima: ${Nombres} </p>
+        <h1>Nombre del clima: <b>${Nombres}</b></h1>
+        <p>Nomenclatura de clasificación: <b>${Clima}</b></p>
         <p>Características:  ${Caracts} </p>
         <p>Distribución: ${Distribs} </p>
         
