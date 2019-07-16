@@ -33,9 +33,9 @@ function MostrarDato(feature, layer) {
           <div class="alert alert-primary" role="alert">
             <p>
               Nomenclatura de clasificación: ${Clima} <br/>
-              Nombre del clima: <span class="badge badge-pill ${Nombre}"
-              Características: <span class="badge badge-pill ${Caract}"
-              Distribución: <span class="badge badge-pill ${Distrib}"
+              Nombre del clima: <span class="badge badge-pill ${Nombre}" <br/>
+              Características: <span class="badge badge-pill ${Caract}" <br/>
+              Distribución: <span class="badge badge-pill ${Distrib}" 
             </p>
           </div>
         `
