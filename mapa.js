@@ -17,7 +17,7 @@ function MostrarDato(feature, layer) {
   // Se valida si el objeto tiene la propiedad "properties"
   if (feature.properties) {
     let dato_a_mostrar = `<p>
-      <h5>Clima: ${feature.properties.nombre}</h5><br/>
+      <h5>Clima: ${feature.properties.clasif}</h5><br/>
     </p>`
     layer.bindPopup(dato_a_mostrar);
     layer.on({
@@ -31,7 +31,7 @@ function MostrarDato(feature, layer) {
         // Se genera el HTML para representar la acción de Click sobre un marcador
         let html_clima = `
           
-        <h1>Nombre del clima: <b>${Nombres}</b></h1>
+        <p>Nombre del clima:<p> <h3><b>${Nombres}</b></h3>
         <p>Nomenclatura de clasificación: <b>${Clima}</b></p>
         <p>Características:  ${Caracts} </p>
         <p>Distribución: ${Distribs} </p>
