@@ -51,7 +51,7 @@ function MostrarDato(feature, layer) {
 d3.json('./mapa.json')
   .then((geojson) => {
     L.geoJSON(geojson, {
-      onEachFeature: MostrarDato,
-       
+      onEachFeature: MostrarDato
+
     }).addTo(map)
   })
