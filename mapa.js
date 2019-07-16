@@ -24,18 +24,18 @@ function MostrarDato(feature, layer) {
       click: (event)=>{
         // Se obtienen los datos desde las propiedades del JSON
         let Clima = event.target.feature.properties.clasif
-        let Nombre = event.target.feature.properties.nombre
-        let Caract = event.target.feature.properties.caract
-        let Distrib = event.target.feature.properties.distrib
+        let Nombres = event.target.feature.properties.nombre
+        let Caracts = event.target.feature.properties.caract
+        let Distribs = event.target.feature.properties.distrib
 
         // Se genera el HTML para representar la acción de Click sobre un marcador
         let html_clima = `
           <div class="alert alert-primary" role="alert">
             <p>
               Nomenclatura de clasificación: ${Clima} <br/>
-              Nombre del clima: <span class="badge badge-pill ${Nombre}" <br/>
-              Características: <span class="badge badge-pill ${Caract}" <br/>
-              Distribución: <span class="badge badge-pill ${Distrib}" 
+              Nombre del clima: <span class="badge badge-pill ${Nombres}" <br/>
+              Características: <span class="badge badge-pill ${Caracts}" <br/>
+              Distribución: <span class="badge badge-pill ${Distribs}" 
             </p>
           </div>
         `
