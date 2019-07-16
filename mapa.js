@@ -47,14 +47,11 @@ function MostrarDato(feature, layer) {
 }
 
 
-
 // Se agrega data al Mapa
 d3.json('./mapa.json')
   .then((geojson) => {
     L.geoJSON(geojson, {
       onEachFeature: MostrarDato,
-      pointToLayer: function (geoJsonPoint, latlng) {
-        return L.Marker(latlng)
-      },
+       
     }).addTo(map)
   })
