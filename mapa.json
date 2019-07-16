@@ -1,1 +1,96 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"clasif":"Bwh","nombre":"Desértico cálido","caract":"Los inviernos son suaves aunque en zonas del interior las temperaturas pueden acercarse por la noche a los cero grados. Los veranos son cálidos o muy cálidos. Plantas del desierto, o sin vegetación. En algunas zonas con este clima las temperaturas en verano son extremadamente altas, y se han registrado las máximas del planeta. Las precipitaciones son muy escasas.","distrib":"Se da en las franjas subtropicales de ambos hemisferios: Desiertos del suroeste de Estados Unidos, Sahara, desierto de la península arábiga, costa del Perú y norte de Chile, desierto del Namib, desiertos de Australia."},"geometry":{"type":"Point","coordinates":"-69.568706 ,-21.513072"}},{"type":"Feature","properties":{"clasif":"Bwk","nombre":"Desértico frío","caract":"Los inviernos son muy fríos y los veranos templados o cálidos. Las precipitaciones son muy escasas. La vegetación es la propia del desierto, o inexistente.","distrib":"Se encuentra en latitudes templadas: la Patagonia Argentina, desiertos del oeste de Estados Unidos o del interior de Asia."},"geometry":{"type":"Point","coordinates":"-69.709055 ,-22.704606"}},{"type":"Feature","properties":{"clasif":"Cfb","nombre":"Marítimo de costa occidental (oceánico)","caract":"Inviernos fríos o templados y veranos frescos. Las precipitaciones están bien distribuidas a lo largo del año. La vegetación natural son los bosques de frondosas.","distrib":"Se da en la costa occidental de los continentes, entre los 45º y 55º de latitud, normalmente a continuación del clima mediterráneo. Es el clima de la fachada atlántica europea desde el sur de Noruega hasta el norte de la península ibérica, de la costa noroeste de Estados Unidos, sur de Chile, Nueva Zelanda."},"geometry":{"type":"Point","coordinates":"-73.083019 ,-46.012609"}},{"type":"Feature","properties":{"clasif":"Cfc","nombre":"Marítimo subártico (oceánico frío)","caract":"Inviernos fríos y sin un verdadero verano. Con lluvias todo el año. En algunos lugares los fuertes vientos hacen que la vegetación sea escasa.","distrib":"Se da a continuación del clima Cfb, conforme nos acercamos a los polos. Es el clima de la costa de Islandia, de la costa noroccidental de Noruega o del extremo sur de Chile y Argentina."},"geometry":{"type":"Point","coordinates":"-72.578244 ,-52.491709"}},{"type":"Feature","properties":{"clasif":"Csb","nombre":"Mediterráneo de veranos frescos","caract":"Inviernos fríos o templados y veranos secos y frescos. La mayor parte de las lluvias caen en invierno o en las estaciones intermedias. La vegetación natural es el bosque mediterráneo.","distrib":"Se da en las mismas latitudes que el Csa. Es el clima del centro de Chile, de la costa central de California, de la región del Cabo en Sudáfrica, y de las tierras altas del interior de la península ibérica, a partir de los 900 o 1.000 metros."},"geometry":{"type":"Point","coordinates":"-71.961999 ,-36.185423"}},{"type":"Feature","properties":{"clasif":"Et","nombre":"Tundra","caract":"La temperatura media del mes más cálido está entre 0ºC y 10ºC. Sólo hay musgos y hierbas cuando la temperatura media supera los 0ºC.","distrib":"Se da en el extremo norte de Norteamérica y Eurasia, así como en las islas cercanas, y comienza a partir del límite norte de la taiga."},"geometry":{"type":"Point","coordinates":"-69.444007,-54.769436"}},{"type":"Feature","properties":{"clasif":"Ef","nombre":"Hielos perpetuos","caract":"La temperatura media del mes más cálido es inferior a 0ºC. No existe ningún tipo de vegetación. Es es el clima de los hielos permanentes.","distrib":"Es el clima de la Antártida, del interior de Groenlandia y de las mayores alturas del Himalaya."},"geometry":{"type":"Point","coordinates":"-68.787681 ,-27.076863"}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "clasif": "Bwh",
+                "nombre": "Desértico cálido",
+                "caract": "Los inviernos son suaves aunque en zonas del interior las temperaturas pueden acercarse por la noche a los cero grados. Los veranos son cálidos o muy cálidos. Plantas del desierto, o sin vegetación. En algunas zonas con este clima las temperaturas en verano son extremadamente altas, y se han registrado las máximas del planeta. Las precipitaciones son muy escasas.",
+                "distrib": "Se da en las franjas subtropicales de ambos hemisferios: Desiertos del suroeste de Estados Unidos, Sahara, desierto de la península arábiga, costa del Perú y norte de Chile, desierto del Namib, desiertos de Australia."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.568706,21.513072]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "clasif": "Bwk",
+                "nombre": "Desértico frío",
+                "caract": "Los inviernos son muy fríos y los veranos templados o cálidos. Las precipitaciones son muy escasas. La vegetación es la propia del desierto, o inexistente.",
+                "distrib": "Se encuentra en latitudes templadas: la Patagonia Argentina, desiertos del oeste de Estados Unidos o del interior de Asia."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.709055,-22.704606]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "clasif": "Cfb",
+                "nombre": "Marítimo de costa occidental (oceánico)",
+                "caract": "Inviernos fríos o templados y veranos frescos. Las precipitaciones están bien distribuidas a lo largo del año. La vegetación natural son los bosques de frondosas.",
+                "distrib": "Se da en la costa occidental de los continentes, entre los 45º y 55º de latitud, normalmente a continuación del clima mediterráneo. Es el clima de la fachada atlántica europea desde el sur de Noruega hasta el norte de la península ibérica, de la costa noroeste de Estados Unidos, sur de Chile, Nueva Zelanda."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-73.083019,-46.012609]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "clasif": "Cfc",
+                "nombre": "Marítimo subártico (oceánico frío)",
+                "caract": "Inviernos fríos y sin un verdadero verano. Con lluvias todo el año. En algunos lugares los fuertes vientos hacen que la vegetación sea escasa.",
+                "distrib": "Se da a continuación del clima Cfb, conforme nos acercamos a los polos. Es el clima de la costa de Islandia, de la costa noroccidental de Noruega o del extremo sur de Chile y Argentina."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-72.578244,-52.491709]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "clasif": "Csb",
+                "nombre": "Mediterráneo de veranos frescos",
+                "caract": "Inviernos fríos o templados y veranos secos y frescos. La mayor parte de las lluvias caen en invierno o en las estaciones intermedias. La vegetación natural es el bosque mediterráneo.",
+                "distrib": "Se da en las mismas latitudes que el Csa. Es el clima del centro de Chile, de la costa central de California, de la región del Cabo en Sudáfrica, y de las tierras altas del interior de la península ibérica, a partir de los 900 o 1.000 metros."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.961999,-36.185423]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "clasif": "Et",
+                "nombre": "Tundra",
+                "caract": "La temperatura media del mes más cálido está entre 0ºC y 10ºC. Sólo hay musgos y hierbas cuando la temperatura media supera los 0ºC.",
+                "distrib": "Se da en el extremo norte de Norteamérica y Eurasia, así como en las islas cercanas, y comienza a partir del límite norte de la taiga."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.444007,-54.769436]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "clasif": "Ef",
+                "nombre": "Hielos perpetuos",
+                "caract": "La temperatura media del mes más cálido es inferior a 0ºC. No existe ningún tipo de vegetación. Es es el clima de los hielos permanentes.",
+                "distrib": "Es el clima de la Antártida, del interior de Groenlandia y de las mayores alturas del Himalaya."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-68.787681,-27.076863]
+            }
+        }
+    ]
+}

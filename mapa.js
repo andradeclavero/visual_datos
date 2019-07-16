@@ -54,11 +54,7 @@ d3.json('./mapa.json')
     L.geoJSON(geojson, {
       onEachFeature: MostrarDato,
       pointToLayer: function (geoJsonPoint, latlng) {
-        return L.circleMarker(latlng).bindPopup(`Mortalidad 2008: ${geoJsonPoint.mortalidad_2008}`)
+        return L.Marker(latlng).bindPopup(`Mortalidad 2008: ${geoJsonPoint.clima}`)
       },
-      style: function (geoJsonPoint) {
-        let color = (geoJsonPoint.mortalidad_2008 > 20) ? 'red' : 'green'
-        return { fillColor: color}
-      }
     }).addTo(map)
   })
