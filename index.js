@@ -13,11 +13,10 @@ lib.leerExcel(ARCHIVO_EXCEL, HOJA_DATOS, function(error, datos){
   if(error){
     // En caso de error se presenta mensaje
     console.log("Error al leer WebPage", error)
-  }else{
+  }
+  else{
     // Mostrar Datos
     console.log("Datos:", datos)
-
-
     // Se instancia otro método de la librería
     // para generar un GEOJSON con la información procesada
     lib.escribirJSON(datos)
